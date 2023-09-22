@@ -143,8 +143,8 @@ def main(args):
                 samples.append(sample)
 
                 prompt = "-".join((prompt.replace("/", "").split(" ")[:10]))
-                save_videos_grid(sample, f"{savedir}/sample/{sample_idx}-{prompt}.gif")
-                print(f"save to {savedir}/sample/{prompt}.gif")
+                save_videos_grid(sample, f"{savedir}/sample/{prompt_idx}.gif")
+                print(f"save to {savedir}/sample/{prompt_idx}.gif")
                 
                 sample_idx += 1
 
