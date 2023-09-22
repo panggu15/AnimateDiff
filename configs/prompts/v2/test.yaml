@@ -1,0 +1,23 @@
+ToonYou:
+  base: ""
+  path: "models/DreamBooth_LoRA/toonyou_beta3.safetensors"
+  
+  inference_config: "configs/inference/inference-v2.yaml"
+  motion_module:
+    - "models/Motion_Module/mm_sd_v15_v2.ckpt"
+
+  seed:           [10788741199826055526, 6520604954829636163, 6519455744612555650, 16372571278361863751]
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "One sunny morning, as Lily was strolling through the village, she noticed a wounded bird with a broken wing huddled beneath a tree., fairytale style, digital art"
+    - "She returned to the tree where she had found the bird and carefully administered the elixir, fairytale style, digital art"
+    - "In the center of the clearing, Lily discovered a magical well, fairytale style, digital art"
+    - "In the center of the clearing, Lily discovered a magical well, fairytale style, digital art"
+
+  n_prompt:
+    - "nsfw, nudes, longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality"
+    - "nsfw, nudes, longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality"
+    - "nsfw, nudes, longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality"
+    - "nsfw, nudes, longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality"
