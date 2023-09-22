@@ -43,11 +43,12 @@ def main(args):
     os.makedirs(savedir)
 
     config  = OmegaConf.load(args.config)
+    print(config)
     samples = []
     
     sample_idx = 0
     for model_idx, (config_key, model_config) in enumerate(list(config.items())):
-        
+        print(config_key)
         motion_modules = model_config.motion_module
         motion_modules = [motion_modules] if isinstance(motion_modules, str) else list(motion_modules)
         for motion_module in motion_modules:
