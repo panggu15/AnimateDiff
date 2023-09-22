@@ -1,6 +1,6 @@
-ToonYou:
+test:
   base: ""
-  path: "models/DreamBooth_LoRA/toonyou_beta3.safetensors"
+  path: ""
   
   inference_config: "configs/inference/inference-v2.yaml"
   motion_module:
