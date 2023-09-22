@@ -30,7 +30,7 @@ class Config():
     # pretrained_model_path = "models/StableDiffusion"
     pretrained_model_path = "digiplay/DreamShaper_8"
     inference_config = "configs/inference/inference-v1.yaml"
-    config = "configs/prompts/v2/1-ToonYou.yaml"
+    config = "configs/prompts/v2/test.yaml" # "configs/prompts/v2/1-ToonYou.yaml"
     L = 16
     W = 512
     H = 512
