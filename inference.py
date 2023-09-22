@@ -27,7 +27,7 @@ import math
 from pathlib import Path
 
 class Config():
-    pretrained_model_path = "models/StableDiffusion/stable-diffusion-v1-5"
+    pretrained_model_path = "models/StableDiffusion"
     inference_config = "configs/inference/inference-v1.yaml"
     config = "configs/prompts/v2/1-ToonYou.yaml"
     L = 16
